@@ -1,0 +1,39 @@
+/*
+AJAX TOOLTIPS
+====================================*/
+
+#jqt-autocomplete {
+	position: absolute;
+	left: 160px;
+	top: 26px;
+	width: 260px;
+	background: #333;
+	color: #FFF;
+	z-index: 100;
+	max-height: 120px;
+	overflow: auto;
+	border: solid 2px #00569A;
+	border-radius: 6px;
+}
+#jqt-autocomplete div {
+	padding: 2px 3px;
+	cursor: pointer;
+}
+#jqt-autocomplete .jqt-active {
+	background: #999;
+	color: #000;
+}
+
+#jqt-autocomplete div.jqt-wp-true {
+	padding-right: 20px;
+	background-image: url(../img/jqt-sprites.png);
+	background-position: 100% -30px;
+	background-repeat: no-repeat;
+}
+input.jqt-ajaxLoading {
+	background-image: url(../img/ajaxloading.gif) !important;
+	background-position: 98% 50% !important;
+	background-repeat: no-repeat !important;
+	/*border-color: #822;*/
+}
+
